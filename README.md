@@ -1,5 +1,6 @@
 # BlazorApp4
 
+File Counter.razor.cs like this:
 
 public partial class Counter : ComponentBase
     {
