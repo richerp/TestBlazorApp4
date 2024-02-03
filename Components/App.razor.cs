@@ -16,9 +16,9 @@ namespace BlazorApp4.Components
     {
         async protected override Task OnInitializedAsync()
         {
+            var ls_url = httpContextAccessor.HttpContext.Request.Path;
+
             myinfo.Id = 10000;
-
-
 
             //return base.OnInitializedAsync();
         }
