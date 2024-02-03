@@ -27,4 +27,5 @@ then, in Counter.razor.cs, Why myinfo.Id is 0?
             return base.OnInitializedAsync();
         }
 
+How can i get the myinfo.Id in Counter.razor.cs???
 
